@@ -1,7 +1,7 @@
 # JavaAsync
 Write your Java code in async way
 ### Intro
-This library was created for javascript developer who love with async/await and don't want to handle thread in Java program.
+This library was created for javascript developer who love with async/await as javascript async style and don't want to handle thread in Java program.
 
 #### How it work?
 Basically it use Java Thread to stimulate async behaviour. **async()** function sprawn a new thread and execute the function as queue. **await()** function execute function as queue without sprawning a new Java Thread.
